@@ -75,7 +75,7 @@ public class Mole : MonoBehaviour
             // i need to make it true again
            // GetComponent<Collider>().enabled = false;
             isMovingUp = false;
-            movedUpTimer = 3f;
+            movedUpTimer = 2f;
         }
     }
 
