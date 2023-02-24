@@ -72,8 +72,6 @@ public class Mole : MonoBehaviour
         // after 2 seconds make mole move down 
         if (movedUpTimer <= 0)
         {
-            // i need to make it true again
-           // GetComponent<Collider>().enabled = false;
             isMovingUp = false;
             movedUpTimer = 2f;
         }
