@@ -10,7 +10,7 @@ public class Mole : MonoBehaviour
     #region Variables
 
     public static event Action MoleClicked;
-    // ************* make it private
+    
     [SerializeField] private bool isMovingUp = false;
     [SerializeField] private float yPosition = 0.5f; 
     [SerializeField] private float speed = 3f;
